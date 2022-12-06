@@ -19,23 +19,23 @@ This repo is a companion repo to the [Manage GitHub Users, Teams, and Repository
 	  - ローカル変数
 	    - locals.tf
 	      - メンバー一覧、チーム一覧を引く数 local に代入する。
-		- member 関連
-			- member.csv
-				- member 一覧。ユーザ名と対応ロール（Role）を記述
-			- member.tf
-				- member.csv の記述をデプロイする
-		- team 関連
-			- teams.csv
-				- team 一覧。チーム名やprivacyなどを記述
-			- team-membersフォルダ
-				- チーム毎のメンバー構成の記述
-			- teams.tf
-				- チーム一覧とチームメンバーの記述をデプロイする。
-		- repository 関連
-			- repositories.tf
-			  - 作成するリポジトリ一覧
-      - repos-team
-        - リポジトリとチームの関係設定
+	  - member 関連
+		- member.csv
+			- member 一覧。ユーザ名と対応ロール（Role）を記述
+		- member.tf
+			- member.csv の記述をデプロイする
+	  - team 関連
+		- teams.csv
+			- team 一覧。チーム名やprivacyなどを記述
+		- team-membersフォルダ
+			- チーム毎のメンバー構成の記述
+		- teams.tf
+			- チーム一覧とチームメンバーの記述をデプロイする。
+	  - repository 関連
+		- repositories.tf
+		  - 作成するリポジトリ一覧
+        - repos-team
+          - リポジトリとチームの関係設定
   - 適用手順
 	- export GITHUB_TOKEN=`<token>`
 	- export GITHUB_OWNER=`<OU>` 
