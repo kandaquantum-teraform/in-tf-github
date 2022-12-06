@@ -37,9 +37,9 @@ This repo is a companion repo to the [Manage GitHub Users, Teams, and Repository
       - repos-team
         - リポジトリとチームの関係設定
   - 適用手順
-  	- export GITHUB_TOKEN=`<token>`
-	  - export GITHUB_OWNER=`<OU>` 
-    - terraform init
-    - echo 'local.team_members_files' | terraform console
-    - terraform apply -target github_team.all
-    - terraform apply
+	- export GITHUB_TOKEN=`<token>`
+	- export GITHUB_OWNER=`<OU>` 
+	- terraform init
+	- echo 'local.team_members_files' | terraform console
+	- terraform apply -target github_team.all
+	- terraform apply
