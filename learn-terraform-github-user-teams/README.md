@@ -13,7 +13,7 @@ This repo is a companion repo to the [Manage GitHub Users, Teams, and Repository
 		- **OU を指定しないと、ユーザごとの制御となる**
 - サンプルリポジトリとTFファイル構成
 	- サンプルリポジトリ
-		- git clone https://github.com/hashicorp/learn-terraform-github-user-teams
+		- git clone https://github.com/kandaquantum-teraform/in-tf-github.git
 		- cd learn-terraform-github-user-teams
 	- ファイル構成
 	  - ローカル変数
